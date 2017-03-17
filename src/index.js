@@ -1,12 +1,12 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 import { render } from 'react-dom'
-import App from './components/App'
+import Routes from './routes'
 import store from './redux/store'
 
 render(
     <Provider store={store}>
-        <App />
+        <Routes />
     </Provider>,
     document.getElementById('app')
 )

@@ -1,9 +1,7 @@
-import Counter from '../Counter'
-
-const App = () => {
+const App = ({children}) => {
     return (
         <div>
-            <Counter/>
+            {children}
         </div>
     )
 }
