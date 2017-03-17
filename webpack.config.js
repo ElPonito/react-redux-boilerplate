@@ -33,7 +33,11 @@ module.exports = {
                 test: /\.jsx?$/, // JS ou JSX
                 loaders: ['babel-loader'],
                 include: path.join(__dirname, 'src')
-            }
+            },
+            {
+                test: /\.png/,
+                loader: 'file-loader?name=[name].[ext]'
+            },
         ]
     },
     plugins: [
