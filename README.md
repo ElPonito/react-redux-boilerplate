@@ -7,6 +7,7 @@ Minimalist React-Redux application with webpack 2 build.
 npm i
 npm start
 ```
+
 ## Access
 ```
 localhost:3000/
